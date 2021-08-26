@@ -1,0 +1,18 @@
+How to Design Twitter
+Compress Twitter to its MVP (minimum viable product)
+Only design core features of Twitter instead of everything.
+The whole product should allow people follow each other and view others feeds.
+Divide the whole system into several core components. (frontend/backend, offline/online)
+In this question, I would design solutions for the following two things: 
+1. Data modeling.
+If we want to use a relational database like MySQL, we can define user object and feed object.
+Two relations are also necessary. One is user can follow each other, the other is each feed has a user owner.
+2. How to serve feeds.
+The most straightforward way is to fetch feeds from all the people you follow and render them by time.
+
+
+Create a TinyURL System
+The length is 7 containing [A-Z, a-z, 0-9], we can serve 62 ^ 7 ~= 3500 billion URLs.
+there are ~644 million URLs
+Take the first 43-bit of 128-bit MD5 of the long URL.
+Convert these 43-bit from base 2 to base 62

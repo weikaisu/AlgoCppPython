@@ -1,0 +1,265 @@
+# depslib dependency file v1.0
+1514140574 source:c:\cpp\hi\main.cpp
+	<iostream>
+
+1515226394 source:c:\cpp\hi\sort.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<stack>
+
+1515226848 source:c:\cpp\hi\tree.cpp
+	<iostream>
+	<queue>
+	<stack>
+
+1516009424 source:d:\cpp\hi\graph.cpp
+	<iostream>
+	<algorithm>
+	<list>
+	<vector>
+	<queue>
+	<stack>
+	<set>
+	<string>
+
+1515227041 source:d:\cpp\hi\hash.cpp
+	<iostream>
+	<cmath>
+
+1517097919 source:d:\cpp\hi\sort.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<stack>
+
+1516848309 source:d:\cpp\hi\tree.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<stack>
+
+1516971618 source:d:\cpp\hi\01_arrays_strings.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	<bitset>
+	<map>
+
+1516496388 source:d:\cpp\hi\02_linked_list.cpp
+	<iostream>
+	<bitset>
+
+1516236409 source:d:\cpp\hi\dp.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	<stack>
+
+1516496383 source:d:\cpp\hi\trie.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+
+1516496390 source:d:\cpp\hi\03_stacks_queues.cpp
+	<iostream>
+	<stack>
+
+1516610613 source:d:\cpp\hi\04_trees_graphs.cpp
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<queue>
+
+1516972710 source:d:\cpp\hi\09_sorting_searching.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
+1517034283 source:d:\cpp\hi\leetcode.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<unordered_map>
+	<unordered_set>
+	<regex>
+	"leetcode.h"
+
+1516765700 source:d:\cpp\hi\string.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<vector>
+
+1516944371 source:d:\cpp\hi\leetcode_search.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<unordered_map>
+	<unordered_set>
+	<regex>
+
+1517096801 source:d:\cpp\hi\leetcode_tree.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<unordered_map>
+	<unordered_set>
+	<regex>
+	"leetcode.h"
+
+1520152368 d:\cpp\hi\leetcode.h
+	<iostream>
+	<string>
+	<regex>
+	<algorithm>
+	<utility>
+	<vector>
+	<list>
+	<stack>
+	<queue>
+	<set>
+	<map>
+	<unordered_set>
+	<unordered_map>
+	<bitset>
+	<functional>
+	<cmath>
+
+1518404533 source:d:\cpp\hi\02_trie.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+
+1520306153 source:d:\cpp\hi\03_graph.cpp
+	"leetcode.h"
+
+1515227041 source:d:\cpp\hi\04_hash.cpp
+	<iostream>
+	<cmath>
+
+1518074536 source:d:\cpp\hi\05_dp.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	<stack>
+	<unordered_map>
+	<unordered_set>
+	<functional>
+
+1519721196 source:d:\cpp\hi\05_string.cpp
+	"leetcode.h"
+
+1516971618 source:d:\cpp\hi\cci_01_arrays_strings.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	<bitset>
+	<map>
+
+1516496388 source:d:\cpp\hi\cci_02_linked_list.cpp
+	<iostream>
+	<bitset>
+
+1516496390 source:d:\cpp\hi\cci_03_stacks_queues.cpp
+	<iostream>
+	<stack>
+
+1516972710 source:d:\cpp\hi\cci_09_sorting_searching.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
+1517796601 source:d:\cpp\hi\lc_00_easy.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<unordered_map>
+	<unordered_set>
+	<regex>
+	"leetcode.h"
+
+1516944371 source:d:\cpp\hi\lc_01_search.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<queue>
+	<unordered_map>
+	<unordered_set>
+	<regex>
+
+1519289685 source:d:\cpp\hi\lc_02_tree.cpp
+	"leetcode.h"
+
+1519198603 source:d:\cpp\hi\02_tree.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<stack>
+	<list>
+	<unordered_map>
+	<unordered_set>
+
+1517109299 source:d:\cpp\hi\cci_04_trees_graphs.cpp
+	<iostream>
+	<list>
+	<stack>
+	<vector>
+	<queue>
+
+1519643443 source:d:\cpp\hi\01_sort.cpp
+	"leetcode.h"
+
+1519735567 source:d:\cpp\hi\001_array_linked_list.cpp
+	"leetcode.h"
+
+1519888173 source:d:\cpp\hi\002_stacks_queues.cpp
+	"leetcode.h"
+
+1519961421 source:d:\cpp\hi\003_heap_hash.cpp
+	"leetcode.h"
+
+1520241744 source:d:\cpp\hi\04_search.cpp
+	"leetcode.h"
+
+1519819099 source:d:\cpp\hi\06_bit.cpp
+	"leetcode.h"
+
+1519893447 source:d:\cpp\hi\07_math.cpp
+	"leetcode.h"
+
+1519891664 source:d:\cpp\hi\08_greedy.cpp
+	"leetcode.h"
+
+1520217757 source:d:\cpp\hi\09_dp.cpp
+	"leetcode.h"
+
+1520120838 source:d:\cpp\hi\10_misc.cpp
+	"leetcode.h"
+
+1518405439 source:d:\cpp\hi\02_bst.cpp
+
+1520214853 source:d:\cpp\hi\021_tree.cpp
+	<iostream>
+	<algorithm>
+	<stack>
+	<list>
+	<queue>
+	<unordered_set>
+	<unordered_map>
+	"leetcode.h"
+
+1519956410 source:d:\cpp\hi\023_trie.cpp
+	"leetcode.h"
+
+1519886455 source:d:\cpp\hi\022_bst.cpp
+	"leetcode.h"
+

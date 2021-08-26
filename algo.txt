@@ -1,0 +1,71 @@
+http://www.csie.ntnu.edu.tw/~u91029/Graph.html
+
+the length of a path between any two nodes in the MST might not be the SP between those two nodes in the original graph.
+
+每次挑選能構成一顆樹最小cost的v or e
+Minimum Spanning Tree
+  Prim (Greedy Algorithms) (similar to Dijkstra)
+  Kruskal (Greedy Algorithms) (similar to Bellman-Ford)
+  Boruvka
+
+每次挑選從root累積自目前最小cost的v or e
+Shortest Paths
+  Dijkstra (Greedy Algorithms)
+  Bellman–Ford (Dynamic Programming) 1-D, for nagtive weight
+  Floyd Warshall (Dynamic Programming) 2-D
+  Johnson
+
+Connectivity
+  Fleury
+
+Maximum Flow
+  Ford-Fulkerson
+
+Minimum Cut
+  Karger
+
+Maximum Matching
+  Hopcroft–Karp
+
+=====================================
+Divide and Conquer
+  Greedy Algorithms (local optimization)
+  Dynamic Programming (global optimization, D&C with memory)
+  Same subproblems are not evaluated many times
+   1) Divide: Break the given problem into subproblems of same type.
+   2) Conquer: Recursively solve these subproblems
+   3) Combine: Appropriately combine the answers
+
+Greedy Algorithms
+  Always choosing the next piece that offers the most obvious and immediate benefit
+  At every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
+  The greedy algorithms are sometimes also used to get an approximation for Hard optimization problems
+  Problems
+   1) Fractional Knapsack problem (0-1 Knapsack cannot be solved using Greedy)
+   2) Minimum Spanning Tree
+   3) Shortest Paths
+   4) Traveling Salesman Problem (NP Hard)
+
+Dynamic Programming
+  Same subproblems are evaluated many times
+  Main properties of a problem
+   1) Overlapping(Common) Subproblems
+   2) Optimal Substructure (Optimal solution of the given problem can be obtained by using optimal solutions of its subproblems.)
+  There are following two different ways to store the values so that these values can be reused:
+   1) Memoization (Top Down)
+   2) Tabulation (Bottom Up)
+
+Backtracking
+  Tries different solutions until finds a solution that works.
+  Problems can only be solved by trying every possible configuration and each configuration is tried only once.
+  Backtracking works in incremental way and is an optimization over the Naive solution where all possible configurations are generated and tried. 
+
+Branch and Bound
+  For solving combinatorial optimization problems.
+  Problems:
+   1) 0/1 Knapsack(Brute Force->Greedy->DP->Backtracking->B&B)
+
+Randomized Algorithms
+  Uses random numbers to decide what to do next anywhere in its logic is called Randomized Algorithm.
+  Ex, Randomized Quick Sort, use random number to pick the next pivot (or we randomly shuffle the array).
+  The randomness is used to reduce time complexity or space complexity in other standard algorithms.

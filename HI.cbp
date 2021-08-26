@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="001_array_linked_list.cpp" />
+		<Unit filename="002_stacks_queues.cpp" />
+		<Unit filename="003_heap_hash.cpp" />
+		<Unit filename="01_sort.cpp" />
+		<Unit filename="021_tree.cpp" />
+		<Unit filename="022_bst.cpp" />
+		<Unit filename="023_trie.cpp" />
+		<Unit filename="03_graph.cpp" />
+		<Unit filename="04_search.cpp" />
+		<Unit filename="05_string.cpp" />
+		<Unit filename="06_bit.cpp" />
+		<Unit filename="07_math.cpp" />
+		<Unit filename="08_greedy.cpp" />
+		<Unit filename="09_dp.cpp" />
+		<Unit filename="10_misc.cpp" />
+		<Unit filename="leetcode.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
